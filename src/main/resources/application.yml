@@ -13,6 +13,8 @@ spring:
       server:
         git:
           uri: https://github.com/mxh1997java/SpringCloudConfig
+          #search-paths，即是配置中心config-repo项目下的一级目录
+          searchPaths: dev
           username: mxh1997java
           password: mxh970529
   rabbitmq:
